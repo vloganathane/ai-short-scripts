@@ -13,5 +13,5 @@ A collection of concise, reusable AI/ML scripts and prompt templates for rapid e
 * Prototype AI features quickly
 * Automate everyday tasks with LLMs
 * Learn and teach prompt engineering and LLM scripting
-* Build mini-tools, bots, and assistants
+* Build mini-tools, bots, agents, and assistants
 
