@@ -2,6 +2,29 @@
 """
 AI-Powered Support Ticket Analyzer
 Uses OpenAI or Anthropic APIs for intelligent ticket triage.
+
+Key Features:
+
+OpenAI Integration: Uses GPT-3.5-turbo for natural language understanding
+Anthropic Support: Template for Claude API (commented out)
+JSON Output: Structured response parsing
+Error Handling: Graceful failure with helpful messages
+
+Setup Instructions:
+
+Install dependencies: pip install openai
+Set API key: export OPENAI_API_KEY="your-key-here"
+Run the script
+
+Benefits over keyword matching:
+
+Better context understanding
+More accurate sentiment analysis
+Nuanced urgency assessment
+Handles complex or ambiguous messages
+
+The AI will provide much more sophisticated analysis than simple keyword matching, understanding context, tone, and implied urgency that rule-based systems might miss.
+To use Anthropic instead, uncomment the Anthropic section and install the anthropic package.
 """
 
 import json
